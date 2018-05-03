@@ -5,4 +5,4 @@ app.set("view engine", "ejs");
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
-app.listen(3000, () => console.log('--SERVER STARTED--'));
+app.listen(PORT, () => console.log('--SERVER STARTED--'));
