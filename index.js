@@ -1,6 +1,8 @@
-var express = require('express')
-var app = express()
+var express = require("express");
+var app = express();
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.set("view engine", "ejs");
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+app.get('/', (req, res) => res.send('Hello World!'));
+
+app.listen(3000, () => console.log('--SERVER STARTED--'));

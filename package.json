@@ -1,14 +1,21 @@
 {
   "name": "taylorsternberg",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.11.1"
+  },
   "description": "taylor's website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3"
+  }
+
+
   }
 }
